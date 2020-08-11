@@ -8,12 +8,12 @@ public class Car {
     private Engine engine;
     private CarType carType;
 
-    public Car(String name, int hp, int weight, Wheel wheel, Engine engine) {
+    public Car(String name, int hp, int weight) {
         this.name = name;
         this.hp = hp;
         this.weight = weight;
-        this.wheel = wheel;
-        this.engine = engine;
+        this.wheel = new Wheel();
+        this.engine = new Engine();
     }
 
     public Wheel getWheel() {

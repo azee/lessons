@@ -3,8 +3,8 @@ package cars;
 public class Main {
 
     public static void main(String[] args) {
-        Car mazdaCx5 = new Car("Mazda", 120, 2200, new Wheel(), new Engine());
-        Car bmwm3 = new Car("BMW M3", 220, 1800, new Wheel(), new Engine());
+        Car mazdaCx5 = new Car("Mazda", 120, 2200);
+        Car bmwm3 = new Car("BMW M3", 220, 1800);
 
         testTheCar(mazdaCx5);
         testTheCar(bmwm3);
