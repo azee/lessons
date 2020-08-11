@@ -27,7 +27,7 @@ public class Main {
                 "Weight: " + car.getWeight());
     }
 
-    public static void driveCar(Driveable driveable){
+    public static void driveCar(Drivable driveable){
         driveable.drive();
     }
 }

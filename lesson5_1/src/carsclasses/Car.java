@@ -1,6 +1,6 @@
 package carsclasses;
 
-public abstract class Car implements Driveable{
+public abstract class Car implements Drivable {
     private String name;
     private int hp;
     private int weight;
