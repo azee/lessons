@@ -6,6 +6,8 @@ public class Main {
         Car mazdaCx5 = new Car("Mazda", 120, 2200);
         Car bmwm3 = new Car("BMW M3", 220, 1800);
 
+
+
         testTheCar(mazdaCx5);
         testTheCar(bmwm3);
     }

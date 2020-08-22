@@ -10,6 +10,10 @@ public class Main {
         testTheCar(mazdaCx5);
         testTheCar(bmwm3);
         testTheCar(tesla);
+
+        ElectricCar teslaModel3 = new ElectricCar("Tesla", 250, 2000, CarType.SEDAN);
+        teslaModel3.drive();
+
     }
 
     public static void testTheCar(Car car){
